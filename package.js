@@ -3,8 +3,8 @@
 Package.describe({
   name: 'oleksandr05popugaiev:materialize',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
-  version: '1.97.6_1',
-  //git: 'https://github.com/poetic/meteor-materialize-scss'
+  version: '0.0.1',
+  git: 'https://github.com/Popugaiev/materialize-cutted'
 });
 
 Package.onUse(function (api) {
