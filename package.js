@@ -1,10 +1,10 @@
 // package metadata file for Meteor.js
 
 Package.describe({
-  name: 'poetic:materialize-scss',  // http://atmospherejs.com/materialize/materialize
+  name: 'oleksandr05popugaiev:materialize',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
   version: '1.97.6_1',
-  git: 'https://github.com/poetic/meteor-materialize-scss'
+  //git: 'https://github.com/poetic/meteor-materialize-scss'
 });
 
 Package.onUse(function (api) {
@@ -20,10 +20,10 @@ Package.onUse(function (api) {
     'dist/font/material-design-icons/Material-Design-Icons.ttf',
     'dist/font/material-design-icons/Material-Design-Icons.woff',
     'dist/font/material-design-icons/Material-Design-Icons.woff2',
-    'material-design-icons/iconfont/MaterialIcons-Regular.eot',
-    'material-design-icons/iconfont/MaterialIcons-Regular.ttf',
-    'material-design-icons/iconfont/MaterialIcons-Regular.woff',
-    'material-design-icons/iconfont/MaterialIcons-Regular.woff2',
+    //'material-design-icons/iconfont/MaterialIcons-Regular.eot',
+    //'material-design-icons/iconfont/MaterialIcons-Regular.ttf',
+    //'material-design-icons/iconfont/MaterialIcons-Regular.woff',
+    //'material-design-icons/iconfont/MaterialIcons-Regular.woff2',
     'dist/font/roboto/Roboto-Bold.ttf',
     'dist/font/roboto/Roboto-Bold.woff',
     'dist/font/roboto/Roboto-Bold.woff2',
@@ -82,7 +82,6 @@ Package.onUse(function (api) {
     'sass/components/_table_of_contents.scss',
     'sass/components/_tabs.scss',
     'sass/components/_toast.scss',
-    'sass/components/_tooltip.scss',
     'sass/components/_typography.scss',
     'sass/components/_variables.scss',
     'sass/components/_waves.scss',

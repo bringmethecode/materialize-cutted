@@ -1335,7 +1335,7 @@ $(document).ready(function(){
     $('ul.tabs').tabs();
   });
 }( jQuery ));
-;(function ($) {
+;/*(function ($) {
     $.fn.tooltip = function (options) {
         var timeout = null,
         margin = 5;
@@ -1538,7 +1538,7 @@ $(document).ready(function(){
      $('.tooltipped').tooltip();
    });
 }( jQuery ));
-;/*!
+;*//*!
  * Waves v0.6.4
  * http://fian.my.id/Waves
  *
@@ -2742,7 +2742,7 @@ $(document).ready(function(){
         $(this).addClass('tabbed');
         var $this = $(this);
         $this.one('blur', function(e) {
-          
+
           $(this).removeClass('tabbed');
         });
         return;
